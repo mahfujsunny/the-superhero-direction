@@ -1,5 +1,5 @@
 # Best YouTubers detailed blog site
-link of netlify
+You can see the website by clicking here 
 
 ### Uses of my site
 ##### 1. You can find the YouTubers who is the best in Bangladesh 
