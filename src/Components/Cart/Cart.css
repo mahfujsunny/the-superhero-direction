@@ -1,0 +1,11 @@
+.cart-container {
+    background-color: skyblue;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid salmon;
+}
+
+.name-feild {
+     border: 2px solid red;
+     
+}
