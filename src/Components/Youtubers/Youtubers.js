@@ -10,7 +10,7 @@ const Youtubers = () => {
     const [count , setCount] = useState([]);
 
     useEffect(() => {
-        fetch('./youtubers.JSON')
+        fetch('./youtubers.json')
         .then(res => res.json())
         .then(data => setYoutubers(data))
     },[])
