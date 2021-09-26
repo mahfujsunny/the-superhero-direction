@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { useEffect } from 'react/cjs/react.development';
+import React, { useState, useEffect } from 'react';
+// import { useEffect } from 'react/cjs/react.development';
 import Cart from '../Cart/Cart';
 import Youtuber from '../Youtuber/Youtuber';
 import './Youtubers.css'

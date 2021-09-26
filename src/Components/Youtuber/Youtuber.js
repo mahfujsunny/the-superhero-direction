@@ -18,12 +18,12 @@ const Youtuber = (props) => {
                 </div>
 
                 <div className="my-auto mx-3 text-danger">
-                    <h3 className="fw-bolder">{name}</h3>
-                    <h5>Role :{role}</h5>
-                    <h5 >Channel : <span className="fw-bold">{channel}</span> </h5>
-                    <h5>Subscriber : <span className="fw-bold">{subscriber}</span> </h5>
-                    <h5>Income : $ {income}</h5>
-                    <button className="btn btn-outline-danger w-50" onClick={() => props.handleAdd(props.youtuber)}>{heartIcon} Favourite</button>
+                    <h4 className="fw-bolder">{name}</h4>
+                    <h6>Role :{role}</h6>
+                    <h6 >Channel : <span className="fw-bold">{channel}</span> </h6>
+                    <h6>Subscriber : <span className="fw-bold">{subscriber}</span> </h6>
+                    <h6>Income : $ {income}</h6>
+                    <button className="btn btn-outline-danger w-75" onClick={() => props.handleAdd(props.youtuber)}>{heartIcon} Favourite</button>
                 </div>
            </div>
 
