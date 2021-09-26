@@ -1,11 +1,13 @@
 .cart-container {
-    background-color: skyblue;
+    background-image: linear-gradient(#F7F8F8, #ACBB78);
     display: inline-block;
     padding: 20px;
-    border: 1px solid salmon;
+    border: 1px solid rgb(84, 84, 84);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
 }
 
 .name-feild {
-     border: 2px solid red;
-     
+    margin-top: 50px;
+    color: black;
 }

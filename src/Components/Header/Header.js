@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div>
+        <div className="header-feild">
             <h2>Best Youtubers Of Bangladesh</h2>
             
             <h3>Total Budget : 100 Million </h3>

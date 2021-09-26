@@ -19,7 +19,7 @@ const Cart = (props) => {
         <div className="cart-container">
             <h4>Favourite Youtubers : {props.count.length}</h4>
             <h4>Total income : ${ShowTotal}</h4>
-            <h5 className="name-feild">{ShowName}</h5>
+            <h2 className="name-feild">{ShowName}</h2>
         </div>
         
     );
